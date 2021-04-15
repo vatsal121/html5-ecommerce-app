@@ -1,0 +1,130 @@
+main section:nth-child(1) {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+main section iframe {
+  width: 100%;
+}
+
+#specs-list {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#specs-list table {
+  border-top: 5px solid #eee;
+  width: 100%;
+  padding: 1px 0;
+  background-color: #fafafa;
+}
+#table-main-heading {
+  padding: 10px !important;
+  border: 1px solid;
+}
+
+table td:nth-child(2) {
+  width: 38.5%;
+}
+
+#specs-list th,
+#specs-list td {
+  font: 14px "Arimo", Arial;
+  padding: 2px 10px;
+  vertical-align: top;
+}
+
+#specs-list th {
+  border-right: medium none;
+  font: 16px "Google-Oswald", Arial;
+  text-transform: uppercase;
+  width: 86px;
+}
+
+#specs-list th.small-line-height {
+  line-height: 18px;
+}
+
+#specs-list td {
+  border-bottom: 1px solid #f0f0f0;
+  line-height: 16px;
+}
+
+#specs-list td.table-title-row {
+  color: #7d7464;
+  font-weight: bold;
+  width: 110px;
+}
+
+#specs-list tr:last-child td {
+  border-bottom: medium none;
+}
+
+#specs-list td.table-title-row a {
+  color: #555;
+}
+
+#specs-list td.info img {
+  width: 300px;
+  height: 300px;
+}
+
+#specs-list td.info h2 {
+  margin-bottom: 15px;
+}
+
+#specs-list td.info a.tests {
+  color: #000000;
+  text-decoration: none;
+}
+
+/* make <BR> into lines */
+#specs-list br {
+  content: "";
+  display: block;
+  width: calc(100% + 20px);
+  position: relative;
+  left: -10px;
+  border-top: 1px solid #f0f0f0;
+  margin: 2px 0;
+  line-height: 23px;
+}
+
+#specs-list.compare-specs-list td {
+  vertical-align: top;
+}
+
+#specs-list th {
+  color: #d50000;
+}
+
+/* *********** media queries *********** */
+
+@media all and (max-width: 768px) {
+  .pre-nav,
+  .flex-container,
+  main,
+  footer {
+    width: 859px !important;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .pre-nav,
+  .flex-container,
+  main,
+  footer {
+    width: 858.9px !important;
+  }
+}
+
+
+@media all and (max-width: 375px) {
+
+}
