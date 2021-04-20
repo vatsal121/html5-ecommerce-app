@@ -1,5 +1,4 @@
-# Dating Site PHP by Vatsal Chauhan and Meet Patel
-### Repo Link: https://github.com/vatsal121/html5-ecommerce-app
+# E-Commerece App by Vatsal Chauhan and Meet Patel
 
 <div align="center">
     <h3>HTML5 E-Commerce App</h3>
