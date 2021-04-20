@@ -8,6 +8,7 @@
 
   - HTML5
   - CSS3(FlexBox, Grid)
+  - Fully Responsive Site
 
 
 ### Website designed and created by Vatsal Chauhan and Meet Patel
